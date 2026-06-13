@@ -6,10 +6,10 @@
 /*   By: muhabin3 <muhabin3@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/13 10:57:11 by muhabin3          #+#    #+#             */
-/*   Updated: 2026/06/13 14:41:24 by muhabin3         ###   ########.fr       */
+/*   Updated: 2026/06/13 15:14:29 by muhabin3         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "ft_putchar.h"
+#include "rec.h"
 
 int	main()
 {
