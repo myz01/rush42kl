@@ -6,7 +6,7 @@
 /*   By: muhabin3 <muhabin3@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/13 10:57:43 by muhabin3          #+#    #+#             */
-/*   Updated: 2026/06/13 15:34:07 by muhabin3         ###   ########.fr       */
+/*   Updated: 2026/06/13 16:02:28 by muhabin3         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "rec.h"
@@ -18,11 +18,14 @@ void	rush(int x, int y)
 	{
 		for (j = 1; j <= y; j++)
 		{
-			if (i == 1 || i == x || j == 1 || j == y)
+			if (i == 1 || i == x)
 				ft_putchar('x');
+			else if(j == 1 || j == y)
+				ft_putchar('y');
 			else
 				ft_putchar(' ');
 		}
+		ft_putchar('\n');
 	}
 }
 
