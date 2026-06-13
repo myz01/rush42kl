@@ -13,3 +13,6 @@ then your subject is the number you got modulo 5, so :
 5 % 5 = 0 (your subject is 0)
 6 % 5 = 1 (your subject is 1)
 ...
+
+M = 13
+13 % 5 = 3
