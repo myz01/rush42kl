@@ -1,19 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*   ft_putchar.h                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: muhabin3 <muhabin3@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/06/13 10:57:31 by muhabin3          #+#    #+#             */
-/*   Updated: 2026/06/13 14:30:51 by muhabin3         ###   ########.fr       */
+/*   Created: 2026/06/13 14:28:24 by muhabin3          #+#    #+#             */
+/*   Updated: 2026/06/13 14:36:24 by muhabin3         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#ifndef FT_PUTCHAR_H
+# define FT_PUTCHAR_H
 
-#include <unistd.h>
-#include "ft_putchar.h"
+void	ft_putchar(char c);
 
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
+#endif
