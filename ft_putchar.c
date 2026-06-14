@@ -6,14 +6,14 @@
 /*   By: muhabin3 <muhabin3@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/13 10:57:31 by muhabin3          #+#    #+#             */
-/*   Updated: 2026/06/13 15:25:14 by muhabin3         ###   ########.fr       */
+/*   Updated: 2026/06/14 09:55:47 by muhabin3         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include "rec.h"
 
-int	ft_putchar(char c)
+void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }

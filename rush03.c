@@ -6,12 +6,10 @@
 /*   By: muhabin3 <muhabin3@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/13 10:57:43 by muhabin3          #+#    #+#             */
-/*   Updated: 2026/06/14 09:44:58 by muhabin3         ###   ########.fr       */
+/*   Updated: 2026/06/14 09:55:10 by muhabin3         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "rec.h"
-
-void	print_char(int x, int y, int i, int j);
 
 void	rush(int x, int y)
 {
