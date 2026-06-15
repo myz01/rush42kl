@@ -6,16 +6,13 @@
 /*   By: muhabin3 <muhabin3@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/13 10:57:11 by muhabin3          #+#    #+#             */
-/*   Updated: 2026/06/15 13:19:03 by muhabin3         ###   ########.fr       */
+/*   Updated: 2026/06/15 14:03:11 by muhabin3         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-/*include "rec.h"*/
-#include "ft_putchar.c"
-#include "rush03.c"
-
+#include "rec.h"
 
 int	main(void)
 {
-	rush(5, 5);
+	rush(5, 4);
 	return (0);
 }
