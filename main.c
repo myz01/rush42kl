@@ -6,7 +6,7 @@
 /*   By: muhabin3 <muhabin3@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/21 15:47:24 by muhabin3          #+#    #+#             */
-/*   Updated: 2026/06/21 16:37:41 by muhabin3         ###   ########.fr       */
+/*   Updated: 2026/06/21 16:55:23 by jodehii          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int     main(int argc, char *argv[])
                 return (0);
         }
 
-        if(ft_strlen(argv[1]) && !ft_check_only_single_digit(argv[1]))
+        if(ft_strlen(argv[1]) && ft_check_only_single_digit(argv[1]) != 16)
         {
                 ft_printstr("Please input only 16 single digits (1-4) to set the sight levels for 4 sides.");
                 return (0);
