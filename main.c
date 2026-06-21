@@ -6,7 +6,7 @@
 /*   By: muhabin3 <muhabin3@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/21 11:14:16 by muhabin3          #+#    #+#             */
-/*   Updated: 2026/06/21 13:31:14 by muhabin3         ###   ########.fr       */
+/*   Updated: 2026/06/21 15:05:54 by junlim           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,15 +67,15 @@ void	ft_putchar(char c)
 }
 
 //trying to use this from main to this function 
-void	ft_printgrid(int grid[4][4])
-{
-	int	row;
-	int	col;
+//void	ft_printgrid(int grid[4][4])
+//{
+//	int	row;
+//	int	col;
 	
-	row = 0;
-	while(i < 4)
-	{
-	
-	}
+//	row = 0;
+//	while(i < 4)
+//	{
+//	
+//	}
 
-}
+//}
