@@ -58,8 +58,10 @@ int	ft_check_only_single_digit(char *str)
 	while(str[i] != '\0')
 	{
 		if(is_digit(str[i]))
-		{
-			if(
+		{	
+			if(str[i] >= '5' && str[i] <= '9')
+				return (0);
+				
 			if(i == 0 && str[i+1] == ' ')
 			{
 				counter++;
@@ -107,7 +109,7 @@ int	main(int argc, char *argv[])
 	
 	if(ft_counstr(argv[1]) && !ft_check_only_single_digit(argv[1]))
 	{
-		ft_printstr("Please input only 16 single digits to set the sight levels for 4 sides.");
+		ft_printstr("Please input only 16 single digits (1-4) to set the sight levels for 4 sides.");
 		return (0);
 	}
 	
