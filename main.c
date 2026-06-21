@@ -6,7 +6,7 @@
 /*   By: muhabin3 <muhabin3@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/21 11:14:16 by muhabin3          #+#    #+#             */
-/*   Updated: 2026/06/21 12:33:22 by muhabin3         ###   ########.fr       */
+/*   Updated: 2026/06/21 13:18:06 by muhabin3         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,11 +36,14 @@ int	main(int argc, char **argv)
 		else
 		{
 			clues[j] = atoi(&argv[1][i]);
+			x = clues[j] + '0';
+			ft_putchar(x);
 			j++;
 			while (argv[1][i] != ' ' && argv[1][i])
 				i++;
 		}
 	}
+	ft_putchar('\n');
 
 	i = 0;
 	while(i < 4)
