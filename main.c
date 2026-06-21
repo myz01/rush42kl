@@ -6,7 +6,7 @@
 /*   By: muhabin3 <muhabin3@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/21 15:47:24 by muhabin3          #+#    #+#             */
-/*   Updated: 2026/06/21 16:08:00 by muhabin3         ###   ########.fr       */
+/*   Updated: 2026/06/21 16:37:41 by muhabin3         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 int     main(int argc, char *argv[])
 {
+	int grid[4][4];
+
         if(argc != 2)
         {
                 ft_printstr("Please input only 2 arguments. Example: ./a.out \"4 3 2 1 1 2 2 2 4 3 2 1 1 2 2 2\"\n");
@@ -25,6 +27,8 @@ int     main(int argc, char *argv[])
                 ft_printstr("Please input only 16 single digits (1-4) to set the sight levels for 4 sides.");
                 return (0);
         }
+
+	ft_print_grid(grid);
 
         /*char *user_sight_levels[];
 
