@@ -6,11 +6,11 @@
 /*   By: jodehii <jodehii@student.42kl.edu.my>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/21 15:13:19 by jodehii           #+#    #+#             */
-/*   Updated: 2026/06/21 15:35:45 by jodehii          ###   ########.fr       */
+/*   Updated: 2026/06/21 16:06:46 by muhabin3         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "ft_header.h"
 
 int	ft_atoi(char *str)
 {
@@ -40,9 +40,9 @@ int	ft_atoi(char *str)
 	return (num);
 }
 
-int	main(void)
+/*int	main(void)
 {
 	char	*str = "1234";
 
 	printf("%d", ft_atoi(str));
-}
+}*/
